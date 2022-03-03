@@ -1,0 +1,46 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Madeleine Tan"
+theme = "cactus"
+copyright = "Madeleine Tan" # cactus will use title if copyright is not set
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Diagrams"
+url = "/diagrams"
+weight = 3
+
+[[menu.main]]
+name = "Other"
+url = "/other"
+weight = 4
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 5
+
+
+[params]
+colortheme = "classic" # dark, light, white, or classic
+
+custom_css = ["css/base16.css"]
+
+description = "I am a fourth-year undergraduate student studying Earth Science and Interdisciplinary Physics at the University of Michigan."
+  
+[[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/madeleine-tan/"
+[[params.social]]
+    name = "email"
+    link = "madeleinemtan@gmail.com"  # no need for "mailto:" in the head
