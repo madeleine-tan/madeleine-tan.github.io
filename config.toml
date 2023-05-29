@@ -1,4 +1,4 @@
-baseURL = 'https://madeleinetan.github.io/'
+baseURL = 'https://madeleine-tan.github.io/'
 languageCode = 'en-us'
 title = 'Madeleine Tan'
 theme = 'hugo-astatine-theme'
